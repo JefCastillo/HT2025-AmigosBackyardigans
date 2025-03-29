@@ -5,6 +5,10 @@ from threading import Thread, Lock
 import socket
 import json
 
+#https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg
+#http://pjreddie.com/media/files/yolov3.weights
+#https://github.com/pjreddie/darknet/blob/master/data/coco.names
+
 class SemaforoEmisor:
     def __init__(self):
         # Configuración YOLO
